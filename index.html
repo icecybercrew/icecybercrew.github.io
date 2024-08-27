@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <h1>Hi, we are<span class="name">ICE</span></h1>
+            <h3 class="text-animation">We<span></span></h3>
+            <!-- <h3><zbr>hackers, not just seek them </h3> -->
+        </div>
+        
+        <div class="home-img">
+             <img src="image/hoodie.png" alt="muhaimin">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About Us</h2>
+    
+        <div class="about-content">
+            <div class="biodata">
+                <h2 id="biodata"></h2>
+                <h3>ICE is a student-driven cybersecurity community at IIUM, founded by passionate students to develop cybersecurity talent among their peers. The community emphasizes collaborative learning and mutual growth, creating an environment where students can learn, challenge each other, and enhance their cybersecurity skills together.</h3>
+            </div>
+        
+            <div id="colorLine" class="color-line"></div>
+            <div class="about-img">
+                <img src="image/hoodie.png">
+            </div>
+        
+       
+        </div>
+        
+    </section>
+    
+
+    <!-- <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+    </section> -->
+
+    <section id="contact">
+        <h2 class="heading">Contact</h2>
+        <div>
+            <form>
+                <div>
+                    <div>
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="Your Email">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <div>
+                        <button type="button">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <h1></h1>
+            <a href="https://github.com/Mynzy"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/muhaiminridzuan/"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+        </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
